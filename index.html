@@ -12,7 +12,21 @@
   <hr/><!---------------------->
   <body>
     <main>
-      <section> <!-- Attendance List-->
+      <p>
+        Free Sudoku Website! <br />
+        <a href="https://sudoku.com">https://sudoku.com</a>
+      </p>
+      <section><!--Table of Contents-->
+        <h2>Table of Contents</h2> 
+        <nav>
+          <ol>
+            <li><a href="#Attendance">Attendance</a></li>
+            <li><a href="#Agenda">Agenda</a></li>
+            <li><a href="#Meeting_Discussion">Meeting Discussion</a></li>
+          </ol>
+        </nav>
+      </section>
+      <section id="Attendance"> 
         <h2>Attendance</h2>
         <p><strong>Total</strong>: 25 Members</p>
         <details>
@@ -46,10 +60,37 @@
           </ol>
         </details>
       </section> 
-      <section><!--Agenda-->
+      <section id="Agenda">
         <h2>Agenda</h2>
-        <h4>Previous Meeting</h4>
-        <h4>Today's Meeting</h4>
+        <fieldset><!--Previous Meeting-->
+          <legend>Previous Meeting</legend>
+          <div>
+            <input type="checkbox"><label>Fundraiser Goals</label>
+          </div>
+          <div>
+            <input type="checkbox"><label>Fundraiser Options</label>
+          </div>
+          <div>
+            <input type="checkbox"><label>Social Media Posters</label>
+          </div>
+         </fieldset>
+         <br>
+         <fieldset><!--Today's Meeting-->
+        <legend>Today's Meeting</legend>
+          <div>
+            <input type="checkbox"><label>Tabling Slots</label>
+          </div>
+          <div>
+            <input type="checkbox"><label>Shift Schedules</label>
+          </div>
+          <div>
+            <input type="checkbox"><label>Bakers and/or Costco Runners</label>
+          </div>
+          </fieldset>
+      </section>
+      <section id="Meeting_Discussion">
+        <h2>Meeting Discussion</h2>
+        <span>Check out our features memes <a href="/meme.html">here</a>!</span>
       </section>
     </main>
   </body>
