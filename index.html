@@ -65,13 +65,13 @@
         <fieldset><!--Previous Meeting-->
           <legend>Previous Meeting</legend>
           <div>
-            <input type="checkbox"><label>Fundraiser Goals</label>
+            <input type="checkbox" checked><label>Fundraiser Goals</label>
           </div>
           <div>
-            <input type="checkbox"><label>Fundraiser Options</label>
+            <input type="checkbox" checked><label>Fundraiser Options</label>
           </div>
           <div>
-            <input type="checkbox"><label>Social Media Posters</label>
+            <input type="checkbox"><label>Social Media Posts</label>
           </div>
          </fieldset>
          <br>
@@ -90,12 +90,102 @@
       </section>
       <section id="Meeting_Discussion">
         <h2>Meeting Discussion</h2>
-        <span>Check out our features memes <a href="/meme.html">here</a>!</span>
+        <span>Check out our features memes <a href="/meme.html">here</a>, thank you all for your submissions!</span>
+        <p>
+            <b>Possible Fundraisers:</b>
+            <ul>
+              <li>Krispy Kreme</li>
+              <li>Costco Bread</li>
+              <li>Bake Sale</li>
+              <li>Sudoku Books</li>
+              <li>Stationary</li>
+            </ul>
+            <b>Fundraiser Goals</b>
+            <ul>
+              <li><i>One Thousand Dollars</i></li>
+              <li>More members</li>
+              <li><i>Funding for Food</i></li>
+              <li>Networking</li>
+            </ul>
+            <b>Social Media Post</b>
+            <ul>
+              <li>Google Forms</li>
+              <li>Event Infographic</li>
+              <li>Club Awarness</li>
+            </ul>
+            <form>
+            <fieldset>
+              <legend>
+                <b><i>Possible</i> Google Form Layout</b>
+              </legend>
+              <div>
+                <label>Today's Date</label>
+                <input type="date">
+              </div>
+              <div>
+                <label>Name:</label>
+                <input type="text" value="John Smith">
+              </div>
+              <div>
+                <label>Standing:</label>
+                <select>
+                    <option value=""></option>
+                    <option value="Freshmen">Freshmen</option>
+                    <option value="Sophmore">Sophmore</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Senior">Senior</option>
+                </select>
+              </div>
+              <div>
+                <label>College:</label>
+                <input list="Colleges">
+                <datalist id="Colleges">
+                  <option value="Revelle"></option>
+                  <option value="Muir"></option>
+                  <option value="Warren"></option>
+                  <option value="Marshall"></option>
+                  <option value="ERC"></option>
+                  <option value="Sixth"></option>
+                  <option value="Seventh"></option>
+                  <option value="Eigth"></option>
+                </datalist>
+              </div>
+              <br>
+              <div>
+                <label>Have you attended a meeting before?</label>
+                <br>
+                <input type="radio" name="Q1"><label>Yes</label>
+                <br>
+                <input type="radio" name="Q1"><label>No</label>
+              </div>
+                
+                <br>
+              <div>
+                <label>Question / Comments:</label>
+                <br>
+                <textarea></textarea>
+              </div>
+              <div>
+                <input type="button" value="Submit">
+              </div>
+            </fieldset>
+            </form>
+            <br>
+            <b>Final Notes</b><br>
+            No more meetings for the rest of the year.
+        </p>
       </section>
     </main>
   </body>
+  <hr>
   <footer>
     <h3>Recording</h3>
-    <video></video>
+    <video controls width="250">
+        <source src="Assests/meetingvid.mp4">
+    </video>
+    <br>
+    <em>Sorry Audio is broken!</em>
+    <h3><strong>President Announcement</strong></h3>
+    <audio controls src="Assests/MeetingAudio.m4a"
   </footer>
 </html>
