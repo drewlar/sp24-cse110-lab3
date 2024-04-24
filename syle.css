@@ -30,7 +30,9 @@ body > p {
 }
 
 h2 {
-  color: hsl(0, 73%, 64%)
+  color: hsl(0, 70%, 65%);
+  text-decoration:underline;
+  text-align: center;
 }
 
 nav {
