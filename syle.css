@@ -10,8 +10,10 @@ header {
   font-size: 1em;
   background-color: lightblue;
   color: #000;
-  height: 100px;
-  width: 10in;
+  min-width: 8in;
+  max-width: 10in;
+  height: 101px;
+  width: 11in;
   margin: auto
 }
 
