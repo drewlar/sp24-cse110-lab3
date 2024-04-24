@@ -1,6 +1,9 @@
 /* Start of CSS File*/
+:root {
+ --body-background: color(from lightblue srgb r g b / 0.2)
+}
 body {
-    background-color: color(from lightblue srgb r g b / 0.2);
+    background-color: var(--body-background, white)
 }
 
 header {
