@@ -12,11 +12,11 @@ header {
 }
 
 body > p {
-  background-color: rgb(221, 161, 186);
+  background-color: rgb(251, 151, 193);
 }
 
 h2 {
-  color: hsl(0, 85%, 48%)
+  color: hsl(0, 73%, 64%)
 }
 
 nav {
