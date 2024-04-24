@@ -2,6 +2,9 @@
 :root {
  --body-background: color(from lightblue srgb r g b / 0.2)
 }
+a:hover {
+ background-color: gray;
+}
 body {
     background-color: var(--body-background, white)
 }
@@ -56,6 +59,10 @@ nav {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+#Attendance > details:active {
+    background-color: gray;
+}
 #Agenda > fieldset{
   position: relative;
   width: 40%;
@@ -64,6 +71,7 @@ nav {
   border-style:dotted;
   border-color: crimson;
 }
+
  #Meeting-Discussion {
     display: block;
  }
