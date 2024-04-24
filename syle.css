@@ -44,6 +44,29 @@ nav {
   background-color: color-mix( in srgb, pink 60%, yellow);
 }
 
+#Table-of-Contents {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Table-of-Contents > h2 {
+    flex: 100%;
+}
+
+#Table-of-Contents > nav {
+    flex: 100%;
+}
+
+#Table-of-Contents > nav > ol {
+    display: flex;
+    flex-direction: row;
+}
+
+#Table-of-Contents > nav > ol > li {
+    flex:20%;
+}
+
+
 #Attendance {
     background-color: pink;
     justify-content:end;
@@ -63,9 +86,23 @@ nav {
 #Attendance > details:active {
     background-color: gray;
 }
-#Agenda > fieldset{
-  position: relative;
-  width: 40%;
+#Agenda {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    column-gap: 10px;
+}
+ 
+.fieldsets {
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.fieldsets > fieldset{
+  position:relative;
+  width: 90%;
   border-radius: 10px;
   border-width: 10px;
   border-style:dotted;
