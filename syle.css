@@ -52,8 +52,24 @@ nav {
   border-style:dotted;
   border-color: crimson;
 }
+ #Meeting-Discussion {
+    display: block;
+ }
 
 #Meeting-Discussion > span {
     padding-left: 50px;
 
+}
+#Meeting-Discussion > img {
+    display: none;
+   
+}
+#Meeting-Discussion > p {
+    display: inline-block;
+    width: 20%;
+}
+
+#Meeting-Discussion > ul {
+    display: inline-block;
+    width: 22%;
 }
