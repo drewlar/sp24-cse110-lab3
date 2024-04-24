@@ -1,7 +1,13 @@
 /* Start of CSS File*/
+@media (any-pointer: fine) {
+    input {
+        cursor: pointer;
+    }
+}
 :root {
  --body-background: color(from lightblue srgb r g b / 0.2)
 }
+
 a:hover {
  background-color: gray;
 }
