@@ -1,1 +1,21 @@
 /* Start of CSS File*/
+body {
+    background-color: color(from lightblue srgb r g b / 0.2);
+}
+
+header {
+  background-color: lightblue;
+  color: #000;
+}
+
+body > p {
+  background-color: rgb(221, 161, 186);
+}
+
+h2 {
+  color: hsl(0, 85%, 48%)
+}
+
+nav {
+  background-color: color-mix( in srgb, pink 60%, yellow);
+}
