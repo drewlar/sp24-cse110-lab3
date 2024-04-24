@@ -4,19 +4,23 @@
         cursor: pointer;
     }
 }
+* {
+    color: #000;
+}
 .jacquard-12-charted-regular {
   font-family: "Jacquard 12 Charted", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
+input[type="checkbox"]:checked, a:hover  {
+    background-color: gray;
+}
+
 :root {
  --body-background: color(from lightblue srgb r g b / 0.2)
 }
 
-a:hover {
- background-color: gray;
-}
 body {
     background-color: var(--body-background, white)
 }
@@ -93,17 +97,31 @@ nav {
     border-bottom-width: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+
+    & :active {
+        background-color: gray;
+    }
 }
 
-#Attendance > details:active {
-    background-color: gray;
+.Names > li.start ~ li.end {
+    color: green;
+
 }
-#Agenda {
+
+.Names > li.start + li + li {
+    color:blueviolet;
+}
+
+section.Agenda {
     display: grid;
     width: 100%;
     grid-template-columns: 100%;
     grid-template-rows: 50% 50%;
     column-gap: 10px;
+}
+
+.Agenda:has(+ h2) > fieldset{
+    background-color: gray;
 }
  
 .fieldsets {
@@ -119,6 +137,10 @@ nav {
   border-width: 10px;
   border-style:dotted;
   border-color: crimson;
+}
+
+.fieldsets > fieldset legend{
+    font-size: medium;
 }
 
  #Meeting-Discussion {
